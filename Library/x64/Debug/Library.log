@@ -1,0 +1,2 @@
+﻿  Library.cpp
+C:\Users\ivano\Desktop\drawgraphProgram\Library\Library.cpp(364,1): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "pch.h"" в источник.
