@@ -1,5 +1,5 @@
 ﻿  Solutions.cpp
-C:\Users\ivano\Desktop\drawgraphProgram\Solutions\Solutions.cpp(117,45): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\ivano\Desktop\drawgraphProgram\Solutions\Solutions.cpp(139,26): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\ivano\Desktop\drawgraphProgram\Solutions\Solutions.cpp(284,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivano\Desktop\drawgraphProgram\Solutions\Solutions.cpp(115,45): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivano\Desktop\drawgraphProgram\Solutions\Solutions.cpp(137,26): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivano\Desktop\drawgraphProgram\Solutions\Solutions.cpp(282,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   Solutions.vcxproj -> C:\Users\ivano\Desktop\drawgraphProgram\x64\Debug\Solutions.lib

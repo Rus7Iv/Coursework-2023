@@ -1,39 +1,35 @@
 #pragma once
+//#ifdef LIBRARY_EXPORTS
+
 #include <iostream>
 #include <fstream>
-#include <vector>
-#include <list>
+#include <vector> // list
+#include <list> //link&list
 #include <locale.h>
 #include <string>
 
-using namespace std;
-
-extern "C" __declspec(dllexport) struct Graph
-{
-	int size;
-	int max_size;
-	char** names;
-	vector<vector<int>> list;
-}graph;
-
-struct Subset
-{
-	int size;
-	int max_cut;
-	char** names;
-	vector<vector<int>> list;
-}subset;
+//using namespace std;
+//
+//struct Graph
+//{
+//	int size;
+//	int max_size;
+//	char** names;
+//	vector<vector<int>> list;
+//}graph;
+//
+//struct Subset
+//{
+//	int size;
+//	int max_cut;
+//	char** names;
+//	vector<vector<int>> list;
+//}subset;
 
 vector<int> null_vertex;
 
 //Считывает граф из файла
-extern "C" __declspec(dllexport) Graph load_graph(const char* path);
-
-//Выводит граф в консоль
-extern "C" __declspec(dllexport) void print_graph(const Graph graph);
-
-// Выводит подмножество
-extern "C" __declspec(dllexport) void print_subset(vector<vector<int>> list);
+//extern "C" __declspec(dllexport) Graph load_graph(const char* path);
 
 //Проверяет, есть ли вершина в подмножестве отсекаемых вершин
 bool is_in_subset(int vertex);
@@ -65,4 +61,6 @@ extern "C" __declspec(dllexport) bool is_increase(int vertex, vector<vector<int>
 extern "C" __declspec(dllexport) bool delete_vertex(int vertex);
 
 //Ищет максимальный разрез графа
-extern "C" __declspec(dllexport) vector<vector<int>> find_max_cut();
+//extern "C" __declspec(dllexport) vector<vector<int>> find_max_cut();
+
+//#endif

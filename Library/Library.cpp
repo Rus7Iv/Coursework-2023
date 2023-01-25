@@ -4,6 +4,9 @@
 #include <list>
 #include <locale.h>
 #include <string>
+#include "windows.h"
+#include "pch.h"
+#include "Library.h"
 
 using namespace std;
 
@@ -26,67 +29,32 @@ struct Subset
 vector<int> null_vertex;
 
 //Считывает граф из файла
-extern "C" __declspec(dllexport) Graph load_graph(const char* path)
-{
-	string buf;
-	ifstream fin(path);
-	getline(fin, buf, '\n');
-	graph.size = stoi(buf);
-
-	// Считываем список смежности
-	vector<int> buffer;
-	int ch = 0;
-	int i = 0;
-	while ((ch = fin.get()) != EOF)
-	{
-		if (char(ch) != '\n')
-		{
-			buffer.push_back(ch - 48);
-		}
-		else
-		{
-			graph.list.push_back(buffer);
-			buffer.clear();
-		}
-	}
-
-	return graph;
-}
-
-//Выводит граф в консоль
-extern "C" __declspec(dllexport) void print_graph(const Graph graph)
-{
-	for (int i = 0; i < graph.size; i++)
-	{
-		cout << " ";
-
-		for (int j = 0; j < graph.list[i].size(); j++)
-		{
-			cout << graph.list[i][j];
-			cout << " ";
-		}
-
-		cout << "\n";
-	}
-}
-
-// Выводит подмножество
-extern "C" __declspec(dllexport) void print_subset(vector<vector<int>> list)
-{
-	for (int i = 0; i < graph.size; i++)
-	{
-		if (list[i] != null_vertex)
-		{
-			cout << " ";
-			for (int j = 0; j < list[i].size(); j++)
-			{
-				cout << list[i][j];
-				cout << " ";
-			}
-			cout << "\n";
-		}
-	}
-}
+//extern "C" __declspec(dllexport) Graph load_graph(const char* path)
+//{
+//	string buf;
+//	ifstream fin(path);
+//	getline(fin, buf, '\n');
+//	graph.size = stoi(buf);
+//
+//	// Считываем список смежности
+//	vector<int> buffer;
+//	int ch = 0;
+//	int i = 0;
+//	while ((ch = fin.get()) != EOF)
+//	{
+//		if (char(ch) != '\n')
+//		{
+//			buffer.push_back(ch - 48);
+//		}
+//		else
+//		{
+//			graph.list.push_back(buffer);
+//			buffer.clear();
+//		}
+//	}
+//
+//	return graph;
+//}
 
 //Проверяет, есть ли вершина в подмножестве отсекаемых вершин
 extern "C" __declspec(dllexport) bool is_in_subset(int vertex)
@@ -358,6 +326,6 @@ extern "C" __declspec(dllexport) vector<vector<int>> find_max_cut()
 		}
 	}
 	cout << "\nРазрезы:\n";
-	print_subset(best_result);
+	//print_subset(best_result);
 	return best_result;
 }

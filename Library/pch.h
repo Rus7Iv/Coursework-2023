@@ -7,6 +7,7 @@
 #ifndef PCH_H
 #define PCH_H
 
+#include "Library.h"
 // Добавьте сюда заголовочные файлы для предварительной компиляции
 #include "framework.h"
 

@@ -1,0 +1,5 @@
+﻿  Test.cpp
+C:\Users\ivano\Desktop\drawgraphProgram\Test\Test.cpp(127,45): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivano\Desktop\drawgraphProgram\Test\Test.cpp(147,26): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivano\Desktop\drawgraphProgram\Test\Test.cpp(290,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Test.vcxproj -> C:\Users\ivano\Desktop\drawgraphProgram\x64\Debug\Test.exe

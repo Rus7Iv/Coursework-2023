@@ -30,10 +30,10 @@ vector<int> null_vertex;
 Graph load_graph(const char* path);
 
 //Выводит граф в консоль
-void print_graph(const Graph graph);
+//void print_graph(const Graph graph);
 
 // Выводит подмножество
-void print_subset(vector<vector<int>> list);
+//void print_subset(vector<vector<int>> list);
 
 //Проверяет, есть ли вершина в подмножестве отсекаемых вершин
 bool is_in_subset(int vertex);

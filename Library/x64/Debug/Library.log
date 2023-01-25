@@ -1,2 +1,7 @@
-﻿  Library.cpp
-C:\Users\ivano\Desktop\drawgraphProgram\Library\Library.cpp(364,1): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "pch.h"" в источник.
+﻿  pch.cpp
+C:\Users\ivano\Desktop\drawgraphProgram\Library\Library.h(29,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+C:\Users\ivano\Desktop\drawgraphProgram\Library\Library.h(29,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\ivano\Desktop\drawgraphProgram\Library\Library.h(38,60): error C2062: тип "int" не требуется
+C:\Users\ivano\Desktop\drawgraphProgram\Library\Library.h(41,63): error C2062: тип "int" не требуется
+C:\Users\ivano\Desktop\drawgraphProgram\Library\Library.h(50,64): error C2061: синтаксическая ошибка: идентификатор "vector"
+C:\Users\ivano\Desktop\drawgraphProgram\Library\Library.h(59,63): error C2061: синтаксическая ошибка: идентификатор "vector"

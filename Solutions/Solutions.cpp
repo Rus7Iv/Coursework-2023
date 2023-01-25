@@ -54,39 +54,39 @@ Graph load_graph(const char* path)
 }
 
 //Выводит граф в консоль
-void print_graph(const Graph graph)
-{
-	for (int i = 0; i < graph.size; i++)
-	{
-		cout << " ";
-
-		for (int j = 0; j < graph.list[i].size(); j++)
-		{
-			cout << graph.list[i][j];
-			cout << " ";
-		}
-
-		cout << "\n";
-	}
-}
+//void print_graph(const Graph graph)
+//{
+//	for (int i = 0; i < graph.size; i++)
+//	{
+//		cout << " ";
+//
+//		for (int j = 0; j < graph.list[i].size(); j++)
+//		{
+//			cout << graph.list[i][j];
+//			cout << " ";
+//		}
+//
+//		cout << "\n";
+//	}
+//}
 
 // Выводит подмножество
-void print_subset(vector<vector<int>> list)
-{
-	for (int i = 0; i < graph.size; i++)
-	{
-		if (list[i] != null_vertex)
-		{
-			cout << " ";
-			for (int j = 0; j < list[i].size(); j++)
-			{
-				cout << list[i][j];
-				cout << " ";
-			}
-			cout << "\n";
-		}
-	}
-}
+//void print_subset(vector<vector<int>> list)
+//{
+//	for (int i = 0; i < graph.size; i++)
+//	{
+//		if (list[i] != null_vertex)
+//		{
+//			cout << " ";
+//			for (int j = 0; j < list[i].size(); j++)
+//			{
+//				cout << list[i][j];
+//				cout << " ";
+//			}
+//			cout << "\n";
+//		}
+//	}
+//}
 
 //Проверяет, есть ли вершина в подмножестве отсекаемых вершин
 bool is_in_subset(int vertex)
@@ -357,7 +357,7 @@ vector<vector<int>> find_max_cut()
 			best_result = subset.list;
 		}
 	}
-	cout << "\nРазрезы:\n";
-	print_subset(best_result);
+	//cout << "\nРазрезы:\n";
+	//print_subset(best_result);
 	return best_result;
 }
