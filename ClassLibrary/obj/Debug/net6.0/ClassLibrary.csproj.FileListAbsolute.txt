@@ -1,5 +1,0 @@
-C:\Users\ivano\Desktop\drawgraphProgram\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
-C:\Users\ivano\Desktop\drawgraphProgram\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ivano\Desktop\drawgraphProgram\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
-C:\Users\ivano\Desktop\drawgraphProgram\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
-C:\Users\ivano\Desktop\drawgraphProgram\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache

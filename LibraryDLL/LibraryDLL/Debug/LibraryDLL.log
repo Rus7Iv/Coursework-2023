@@ -1,0 +1,20 @@
+﻿  LibraryDLL.cpp
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(65,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(83,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(112,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(132,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(146,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(159,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(163,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(180,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(193,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(219,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(223,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(265,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(276,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(278,30): warning C4018: >: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(286,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(331,23): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\LibraryDLL\LibraryDLL.cpp(341,23): warning C4018: <: несоответствие типов со знаком и без знака
+     Создается библиотека E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\Debug\LibraryDLL.lib и объект E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\Debug\LibraryDLL.exp
+  LibraryDLL.vcxproj -> E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\Debug\LibraryDLL.dll

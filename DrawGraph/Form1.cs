@@ -7,12 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 using System.IO;
 
 namespace SystAnalys_lr1
 {
     public partial class Form1 : Form
     {
+        [DllImport(@"E:\Заказы\Руслан Иванов\Coursework-2023\LibraryDLL\Debug\LibraryDLL.dll", CallingConvention = CallingConvention.Cdecl)]
+        static extern int find_max_graph_cut(string path);
+
         DrawGraph G;
         List<Vertex> V;
         List<Edge> E;
@@ -20,6 +24,8 @@ namespace SystAnalys_lr1
 
         int selected1; //выбранные вершины, для соединения линиями
         int selected2;
+
+        const string filePath = @"E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\note.txt";
 
         public Form1()
         {
@@ -93,16 +99,6 @@ namespace SystAnalys_lr1
             E.Clear();
             G.clearSheet();
             sheet.Image = G.GetBitmap();
-            /*const string message = "Вы хотите очистить страницу?";
-            const string caption = "Удалить?";
-            var MBSave = MessageBox.Show(message, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (MBSave == DialogResult.Yes)
-            {
-                V.Clear();
-                E.Clear();
-                G.clearSheet();
-                sheet.Image = G.GetBitmap();
-            }*/
         }
 
         private void sheet_MouseClick(object sender, MouseEventArgs e)
@@ -258,7 +254,7 @@ namespace SystAnalys_lr1
             G.fillAdjacencyMatrix(V.Count, E, AMatrix);
             string sOut = "";
 
-            StreamWriter sw = new StreamWriter(@"C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\note.txt");
+            StreamWriter sw = new StreamWriter(filePath);
             string text = Convert.ToString(V.Count);
             sw.WriteLine(text);
 
@@ -279,6 +275,9 @@ namespace SystAnalys_lr1
             if (sheet.Image != null)
             {
                 createAdjAndOut(); // создает матрицу смежности
+                int result = find_max_graph_cut(filePath);
+
+                MessageBox.Show(result.ToString());
             }
         }
     }

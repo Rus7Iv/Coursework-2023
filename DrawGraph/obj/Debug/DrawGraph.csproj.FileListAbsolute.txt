@@ -20,3 +20,23 @@ C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.csproj.Gen
 C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.csproj.CoreCompileInputs.cache
 C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.exe
 C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.pdb
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\bin\Debug\DrawGraph.exe.config
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\bin\Debug\DrawGraph.exe
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\bin\Debug\DrawGraph.pdb
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.csproj.AssemblyReference.cache
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\SystAnalys_lr1.Form1.resources
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.Properties.Resources.resources
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.csproj.GenerateResource.cache
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.csproj.CoreCompileInputs.cache
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.exe
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.pdb
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\bin\Debug\DrawGraph.exe.config
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\bin\Debug\DrawGraph.exe
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\bin\Debug\DrawGraph.pdb
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.csproj.AssemblyReference.cache
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\SystAnalys_lr1.Form1.resources
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.Properties.Resources.resources
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.csproj.GenerateResource.cache
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.csproj.CoreCompileInputs.cache
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.exe
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.pdb
