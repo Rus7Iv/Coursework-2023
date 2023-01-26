@@ -82,60 +82,61 @@ namespace SystAnalys_lr1
             gr.DrawEllipse(redPen, (x - R), (y - R), 2 * R, 2 * R);
         }
 
-        public void drawEdge(Vertex V1, Vertex V2, Edge E, int numberE)
+        public void drawEdge(Vertex vertex1, Vertex vertex2, Edge edges, int edgesCount)
         {
-            if (E.v1 == E.v2)
+            if (edges.v1 == edges.v2)
             {
-                gr.DrawArc(darkGoldPen, (V1.x - 2 * R), (V1.y - 2 * R), 2 * R, 2 * R, 90, 270);
-                point = new PointF(V1.x - (int)(2.75 * R), V1.y - (int)(2.75 * R));
-                gr.DrawString(((char)('a' + numberE)).ToString(), fo, br, point);
-                drawVertex(V1.x, V1.y, (E.v1 + 1).ToString());
+                gr.DrawArc(darkGoldPen, (vertex1.x - 2 * R), (vertex1.y - 2 * R), 2 * R, 2 * R, 90, 270);
+                point = new PointF(vertex1.x - (int)(2.75 * R), vertex1.y - (int)(2.75 * R));
+                gr.DrawString(((char)('a' + edgesCount)).ToString(), fo, br, point);
+                drawVertex(vertex1.x, vertex1.y, (edges.v1 + 1).ToString());
             }
             else
             {
-                gr.DrawLine(darkGoldPen, V1.x, V1.y, V2.x, V2.y);
-                point = new PointF((V1.x + V2.x) / 2, (V1.y + V2.y) / 2);
-                gr.DrawString(((char)('a' + numberE)).ToString(), fo, br, point);
-                drawVertex(V1.x, V1.y, (E.v1 + 1).ToString());
-                drawVertex(V2.x, V2.y, (E.v2 + 1).ToString());
+                gr.DrawLine(darkGoldPen, vertex1.x, vertex1.y, vertex2.x, vertex2.y);
+                point = new PointF((vertex1.x + vertex2.x) / 2, (vertex1.y + vertex2.y) / 2);
+                gr.DrawString(((char)('a' + edgesCount)).ToString(), fo, br, point);
+                drawVertex(vertex1.x, vertex1.y, (edges.v1 + 1).ToString());
+                drawVertex(vertex2.x, vertex2.y, (edges.v2 + 1).ToString());
             }
         }
 
-        public void drawALLGraph(List<Vertex> V, List<Edge> E)
+        public void drawGraph(List<Vertex> vertexes, List<Edge> edges)
         {
             //рисуем ребра
-            for (int i = 0; i < E.Count; i++)
+            for (int i = 0; i < edges.Count; i++)
             {
-                if (E[i].v1 == E[i].v2)
+                if (edges[i].v1 == edges[i].v2)
                 {
-                    gr.DrawArc(darkGoldPen, (V[E[i].v1].x - 2 * R), (V[E[i].v1].y - 2 * R), 2 * R, 2 * R, 90, 270);
-                    point = new PointF(V[E[i].v1].x - (int)(2.75 * R), V[E[i].v1].y - (int)(2.75 * R));
+                    gr.DrawArc(darkGoldPen, (vertexes[edges[i].v1].x - 2 * R), (vertexes[edges[i].v1].y - 2 * R), 2 * R, 2 * R, 90, 270);
+                    point = new PointF(vertexes[edges[i].v1].x - (int)(2.75 * R), vertexes[edges[i].v1].y - (int)(2.75 * R));
                     gr.DrawString(((char)('a' + i)).ToString(), fo, br, point);
                 }
                 else
                 {
-                    gr.DrawLine(darkGoldPen, V[E[i].v1].x, V[E[i].v1].y, V[E[i].v2].x, V[E[i].v2].y);
-                    point = new PointF((V[E[i].v1].x + V[E[i].v2].x) / 2, (V[E[i].v1].y + V[E[i].v2].y) / 2);
+                    gr.DrawLine(darkGoldPen, vertexes[edges[i].v1].x, vertexes[edges[i].v1].y, vertexes[edges[i].v2].x, vertexes[edges[i].v2].y);
+                    point = new PointF((vertexes[edges[i].v1].x + vertexes[edges[i].v2].x) / 2, (vertexes[edges[i].v1].y + vertexes[edges[i].v2].y) / 2);
                     gr.DrawString(((char)('a' + i)).ToString(), fo, br, point);
                 }
             }
             //рисуем вершины
-            for (int i = 0; i < V.Count; i++)
+            for (int i = 0; i < vertexes.Count; i++)
             {
-                drawVertex(V[i].x, V[i].y, (i + 1).ToString());
+                drawVertex(vertexes[i].x, vertexes[i].y, (i + 1).ToString());
             }
         }
 
         //заполняет матрицу смежности
-        public void fillAdjacencyMatrix(int numberV, List<Edge> E, int[,] matrix)
+        public void fillAdjencyMatrix(int vertexesCount, List<Edge> edges, int[,] matrix)
         {
-            for (int i = 0; i < numberV; i++)
-                for (int j = 0; j < numberV; j++)
+            for (int i = 0; i < vertexesCount; i++)
+                for (int j = 0; j < vertexesCount; j++)
                     matrix[i, j] = 0;
-            for (int i = 0; i < E.Count; i++)
+
+            for (int i = 0; i < edges.Count; i++)
             {
-                matrix[E[i].v1, E[i].v2] = 1;
-                matrix[E[i].v2, E[i].v1] = 1;
+                matrix[edges[i].v1, edges[i].v2] = 1;
+                matrix[edges[i].v2, edges[i].v1] = 1;
             }
         }        
     }

@@ -35,13 +35,18 @@
             this.sheet = new System.Windows.Forms.PictureBox();
             this.solutionButton = new System.Windows.Forms.Button();
             this.selectButton = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.sheet)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // deleteALLButton
             // 
             this.deleteALLButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deleteALLButton.Location = new System.Drawing.Point(817, 15);
+            this.deleteALLButton.Location = new System.Drawing.Point(817, 49);
             this.deleteALLButton.Margin = new System.Windows.Forms.Padding(4);
             this.deleteALLButton.Name = "deleteALLButton";
             this.deleteALLButton.Size = new System.Drawing.Size(121, 55);
@@ -53,7 +58,7 @@
             // deleteButton
             // 
             this.deleteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deleteButton.Location = new System.Drawing.Point(403, 13);
+            this.deleteButton.Location = new System.Drawing.Point(403, 49);
             this.deleteButton.Margin = new System.Windows.Forms.Padding(4);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(121, 55);
@@ -65,7 +70,7 @@
             // drawEdgeButton
             // 
             this.drawEdgeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.drawEdgeButton.Location = new System.Drawing.Point(274, 13);
+            this.drawEdgeButton.Location = new System.Drawing.Point(274, 49);
             this.drawEdgeButton.Margin = new System.Windows.Forms.Padding(4);
             this.drawEdgeButton.Name = "drawEdgeButton";
             this.drawEdgeButton.Size = new System.Drawing.Size(121, 55);
@@ -77,7 +82,7 @@
             // drawVertexButton
             // 
             this.drawVertexButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.drawVertexButton.Location = new System.Drawing.Point(145, 15);
+            this.drawVertexButton.Location = new System.Drawing.Point(145, 49);
             this.drawVertexButton.Margin = new System.Windows.Forms.Padding(4);
             this.drawVertexButton.Name = "drawVertexButton";
             this.drawVertexButton.Size = new System.Drawing.Size(121, 55);
@@ -89,10 +94,10 @@
             // sheet
             // 
             this.sheet.BackColor = System.Drawing.SystemColors.Control;
-            this.sheet.Location = new System.Drawing.Point(16, 88);
+            this.sheet.Location = new System.Drawing.Point(16, 130);
             this.sheet.Margin = new System.Windows.Forms.Padding(4);
             this.sheet.Name = "sheet";
-            this.sheet.Size = new System.Drawing.Size(922, 438);
+            this.sheet.Size = new System.Drawing.Size(922, 396);
             this.sheet.TabIndex = 0;
             this.sheet.TabStop = false;
             this.sheet.MouseClick += new System.Windows.Forms.MouseEventHandler(this.sheet_MouseClick);
@@ -112,7 +117,7 @@
             // selectButton
             // 
             this.selectButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.selectButton.Location = new System.Drawing.Point(16, 15);
+            this.selectButton.Location = new System.Drawing.Point(16, 49);
             this.selectButton.Margin = new System.Windows.Forms.Padding(4);
             this.selectButton.Name = "selectButton";
             this.selectButton.Size = new System.Drawing.Size(121, 55);
@@ -120,6 +125,40 @@
             this.selectButton.Text = "Выбрать";
             this.selectButton.UseVisualStyleBackColor = true;
             this.selectButton.Click += new System.EventHandler(this.selectButton_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.файлToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(962, 28);
+            this.menuStrip1.TabIndex = 14;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // файлToolStripMenuItem
+            // 
+            this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saveFileToolStripMenuItem,
+            this.openFileToolStripMenuItem});
+            this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
+            this.файлToolStripMenuItem.Text = "Файл";
+            // 
+            // saveFileToolStripMenuItem
+            // 
+            this.saveFileToolStripMenuItem.Name = "saveFileToolStripMenuItem";
+            this.saveFileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.saveFileToolStripMenuItem.Text = "Сохранить";
+            this.saveFileToolStripMenuItem.Click += new System.EventHandler(this.saveFileToolStripMenuItem_Click);
+            // 
+            // openFileToolStripMenuItem
+            // 
+            this.openFileToolStripMenuItem.Name = "openFileToolStripMenuItem";
+            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.openFileToolStripMenuItem.Text = "Открыть";
+            this.openFileToolStripMenuItem.Click += new System.EventHandler(this.openFileToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -133,12 +172,17 @@
             this.Controls.Add(this.drawEdgeButton);
             this.Controls.Add(this.drawVertexButton);
             this.Controls.Add(this.sheet);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vscode.ru";
             ((System.ComponentModel.ISupportInitialize)(this.sheet)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -151,6 +195,10 @@
         private System.Windows.Forms.Button deleteALLButton;
         private System.Windows.Forms.Button solutionButton;
         private System.Windows.Forms.Button selectButton;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveFileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openFileToolStripMenuItem;
     }
 }
 
