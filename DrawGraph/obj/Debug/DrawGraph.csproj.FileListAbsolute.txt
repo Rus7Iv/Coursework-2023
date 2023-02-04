@@ -1,0 +1,53 @@
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\obj\Debug\DrawGraph.csproj.AssemblyReference.cache
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\obj\Debug\DrawGraph.csproj.SuggestedBindingRedirects.cache
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\obj\Debug\SystAnalys_lr1.Form1.resources
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\obj\Debug\DrawGraph.csproj.GenerateResource.cache
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\obj\Debug\DrawGraph.csproj.CoreCompileInputs.cache
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\bin\Debug\DrawGraph.exe.config
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\bin\Debug\DrawGraph.exe
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\bin\Debug\DrawGraph.pdb
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\obj\Debug\DrawGraph.Properties.Resources.resources
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\obj\Debug\DrawGraph.exe
+C:\Users\ivano\Desktop\drawgraphProgram\SystAnalys_lr1\obj\Debug\DrawGraph.pdb
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\bin\Debug\DrawGraph.exe.config
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\bin\Debug\DrawGraph.exe
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\bin\Debug\DrawGraph.pdb
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.csproj.AssemblyReference.cache
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.csproj.SuggestedBindingRedirects.cache
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\SystAnalys_lr1.Form1.resources
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.Properties.Resources.resources
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.csproj.GenerateResource.cache
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.csproj.CoreCompileInputs.cache
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.exe
+C:\Users\ivano\Desktop\drawgraphProgram\DrawGraph\obj\Debug\DrawGraph.pdb
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\bin\Debug\DrawGraph.exe.config
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\bin\Debug\DrawGraph.exe
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\bin\Debug\DrawGraph.pdb
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.csproj.AssemblyReference.cache
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\SystAnalys_lr1.Form1.resources
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.Properties.Resources.resources
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.csproj.GenerateResource.cache
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.csproj.CoreCompileInputs.cache
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.exe
+E:\Заказы\Руслан Иванов\Coursework-2023\DrawGraph\obj\Debug\DrawGraph.pdb
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\bin\Debug\DrawGraph.exe.config
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\bin\Debug\DrawGraph.exe
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\bin\Debug\DrawGraph.pdb
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.csproj.AssemblyReference.cache
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\SystAnalys_lr1.Form1.resources
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.Properties.Resources.resources
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.csproj.GenerateResource.cache
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.csproj.CoreCompileInputs.cache
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.exe
+E:\Заказы\Руслан Иванов\Courswork-2023\DrawGraph\obj\Debug\DrawGraph.pdb
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\bin\Debug\DrawGraph.exe.config
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\bin\Debug\DrawGraph.exe
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\bin\Debug\DrawGraph.pdb
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\obj\Debug\DrawGraph.csproj.AssemblyReference.cache
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\obj\Debug\DrawGraph.csproj.SuggestedBindingRedirects.cache
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\obj\Debug\SystAnalys_lr1.Form1.resources
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\obj\Debug\DrawGraph.Properties.Resources.resources
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\obj\Debug\DrawGraph.csproj.GenerateResource.cache
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\obj\Debug\DrawGraph.csproj.CoreCompileInputs.cache
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\obj\Debug\DrawGraph.exe
+C:\Users\ivano\Desktop\Coursework-2023-main\DrawGraph\obj\Debug\DrawGraph.pdb

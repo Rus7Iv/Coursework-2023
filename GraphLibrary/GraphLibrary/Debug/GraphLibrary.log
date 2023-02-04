@@ -1,0 +1,20 @@
+﻿  GraphLibrary.cpp
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(65,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(83,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(112,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(132,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(146,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(159,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(163,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(180,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(193,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(219,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(223,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(265,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(276,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(278,30): warning C4018: >: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(286,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(331,23): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\GraphLibrary\GraphLibrary.cpp(341,23): warning C4018: <: несоответствие типов со знаком и без знака
+     Создается библиотека E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\Debug\GraphLibrary.lib и объект E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\Debug\GraphLibrary.exp
+  GraphLibrary.vcxproj -> E:\Заказы\Руслан Иванов\Coursework-2023\GraphLibrary\Debug\GraphLibrary.dll
